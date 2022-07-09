@@ -1,0 +1,105 @@
+.hero {
+    font-family: 'Poppins';
+    height: calc(100vh - 60px - 2vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    letter-spacing: 0.0175em;
+    padding-top: 8vh;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+}
+.container__hero__title{
+    display: flex;
+    justify-content:left;
+}
+
+.container__hero__news{
+    padding-left: 10vw;
+    display: flex;
+    justify-content: right;
+    padding-top: 2vh;
+}
+.container__hero__usp{
+    padding-left: 14vw;
+    display: flex;
+    justify-content: right;
+    padding-top: 2vh;
+}
+.title__sd {
+    padding-top: 0.75rem;
+    padding-left: 0.3vw;
+}
+.title__td {
+    color: #008DFC;
+}
+.title__fh {
+    justify-content: right;
+    width: 31vw;
+    font-size: calc(1rem + 0.57vw);
+    font-weight: 500;
+    line-height: 1.28;
+    letter-spacing: 0.05em;
+}
+.title__ft, .title__sd, .title__td {
+    font-size: calc(3.21rem + 5.35vw);
+    line-height: 0.8;
+    font-weight: 500;
+    @media (max-width: 850px) {
+        font-size: calc(1.925rem + 5.35vw);
+    }
+    @media (max-width: 768px) {
+        font-size: calc(1.925rem + 5.1vw);
+    }
+    @media (max-width: 672px) {
+        font-size: calc(1.925rem + 4.4vw);
+    }
+    @media (max-width: 576px) {
+        font-size: calc(1.725rem + 3.8vw);
+        line-height: 0.875;
+    }
+    @media (max-width: 490px) {
+        font-size: calc(1.7rem + 3.2vw);
+        line-height: 0.825;
+    }
+    @media (max-width: 460px) {
+        font-size: calc(1.5rem + 2.75vw);
+    }
+    @media (max-width: 400px) {
+        font-size: calc(1.35rem + 2.85vw);
+        line-height: 0.725;
+    }
+    @media (max-width: 360px) {
+        font-size: calc(1.25rem + 2.5vw);
+        line-height: 0.625;
+    }
+}
+.container__hero__img {
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+.img {
+    width: 35%;
+}
+.blog{
+    padding-top: 1vh;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+}
+.blog__title{
+    padding-top: 1vh;
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
+}
+.container__hero__roundbtn {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 1px solid #008DFC;
+}

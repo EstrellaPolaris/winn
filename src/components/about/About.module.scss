@@ -1,0 +1,51 @@
+.container__about{
+    font-family: 'Poppins';
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    letter-spacing: 0.0175em;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+}
+.container__about__title{
+    display: flex;
+    justify-content: right;
+
+}
+.container__about__subtitle{
+    font-weight: 300;
+    height: 45%;
+}
+.container__about__adv{
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    padding-left: 0.75rem;
+    border-left: 1px solid #008DFC;
+}
+.about__title{
+    font-size: 4rem;
+    font-weight: 400;
+}
+.about__title__ft{
+    font-size: calc(1rem + 0.75vw);
+    letter-spacing: 0.05em;
+    padding-bottom: 2.75vh;
+    font-weight: 300;
+}
+.about__title__sd{
+    font-size: calc(1.15rem + 2.125vw);
+    letter-spacing: -0.015em;
+    line-height: 1.15;
+    font-weight: 400;
+    width: 65vw;
+    padding-bottom: 2vh;
+}
+.about__adv{
+    font-size: 15px;
+    line-height: 1.75;
+    letter-spacing: 0.05em;
+}
